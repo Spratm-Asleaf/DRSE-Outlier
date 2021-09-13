@@ -12,7 +12,7 @@
    
    
 
-# DRSE-Outlier: Distributionally Robust State Estimation Subject to Outlier   
+# DRSE-Outlier: Distributionally Robust State Estimation Considering Outlier   
 
 
 Online supplementary materials of the paper titled 
