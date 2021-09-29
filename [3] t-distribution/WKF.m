@@ -94,7 +94,7 @@ function [mu_t, Sigma_t] = predict(x_prev, V_prev, sys)
         sys.H*sys.G*(sys.Q)*sys.G'          sys.H*sys.G*(sys.Q)*sys.G'*sys.H' + sys.R
     ];
     mu_t = A_aug * x_prev;
-    Sigma_t = A_aug * V_prev * A_aug' + B_aug * B_aug';
+    Sigma_t = A_aug * V_prev * A_aug' + B_aug ;
 end
 
 function [xhat_t, V_t] = update(mu_t, Sigma_t, rho_t, y_t, x_dim, opts)
