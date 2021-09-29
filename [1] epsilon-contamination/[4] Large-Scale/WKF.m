@@ -88,7 +88,11 @@ end
 
 function [mu_t, Sigma_t] = predict(x_prev, V_prev, sys)
     A_aug = [sys.F; sys.H * sys.F];
-    B_aug = blkdiag(sys.G*(sys.Q)*(sys.G)', sys.H*sys.G*(sys.Q)*(sys.G)'*(sys.H)' + (sys.R));
+    %B_aug = blkdiag(sys.G*(sys.Q)*(sys.G)', sys.H*sys.G*(sys.Q)*(sys.G)'*(sys.H)' + (sys.R));
+    B_aug = [
+        sys.G*(sys.Q)*sys.G'                sys.G*(sys.Q)*sys.G'*sys.H'
+        sys.H*sys.G*(sys.Q)*sys.G'          sys.H*sys.G*(sys.Q)*sys.G'*sys.H' + sys.R
+    ];
     mu_t = A_aug * x_prev;
     Sigma_t = A_aug * V_prev * A_aug' + B_aug;
 end
