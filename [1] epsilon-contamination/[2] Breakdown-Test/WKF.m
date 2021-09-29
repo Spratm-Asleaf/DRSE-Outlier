@@ -89,7 +89,7 @@ end
 function [mu_t, Sigma_t] = predict(x_prev, V_prev, sys)
     A_aug = [sys.F; sys.H * sys.F];
     %B_aug = blkdiag(sys.G*(sys.Q)*(sys.G)', sys.H*sys.G*(sys.Q)*(sys.G)'*(sys.H)' + (sys.R));
-	B_aug = [
+    B_aug = [
         sys.G*(sys.Q)*sys.G'                sys.G*(sys.Q)*sys.G'*sys.H'
         sys.H*sys.G*(sys.Q)*sys.G'          sys.H*sys.G*(sys.Q)*sys.G'*sys.H' + sys.R
     ];
