@@ -1,16 +1,11 @@
-> Files/codes here are allowed to be edited, distributed, and re-used for any academic/teaching purpose without any warranty. However, you are strongly suggested sharing your codes with publics if you are planning to use codes here. Let's work together to guarantee the reproducibilty of experiments and the verifiability of claims in publications. We believe that this is meaningful to facilitate future research of the signal processing community.
-
 > @Author: WANG Shixiong (Email: <s.wang@u.nus.edu>; <wsx.gugo@gmail.com>)
 
 > @Affiliate: Department of Industrial Systems Engineering and Management, National University of Singapore
 
-> @Date: Sep 12, 2021
+> @Date: First Uploaded Sep 12, 2021; Last Updated Nov 1, 2021
 
 > MATLAB Version: 2019B or later
-
-> Note that the mentioned reproducibilty and verifiability do not necessarily guarantee the (absolute) correctness of academic claims in a scitific publication. Future research may deny or modify or improve the philosophies, methods, models, and/or claims conveyed in this article. But readers should not try to "find bones from an egg", and codes here are just for their reference, not for their unfriendly criticism. Of course, the authors are open to learn and friendly comments are always welcomed.
-   
-   
+ 
 
 # DRSE-Outlier: Distributionally Robust State Estimation Considering Outlier   
 
@@ -45,5 +40,13 @@ From the Department of Industrial Systems Engineering and Management, National U
 + [3] t-distribution
 
     * This folder contains the codes to generate the Table III and Table IV in the online <u>supplementary materials</u>.
-   
-   
+
+
+***Warranty***
+
+Files/codes here are allowed to be edited, distributed, and re-used for any academic/teaching purpose without any warranty. However, you are strongly suggested sharing your codes with publics if you are planning to use codes here. Let's work together to guarantee the reproducibilty of experiments and the verifiability of claims in publications. We believe that this is meaningful to facilitate future research of the signal processing community.
+
+
+***Disclaimer***
+
+Note that the mentioned reproducibilty and verifiability do not necessarily guarantee the (absolute) correctness of academic claims in a scitific publication. Future research may deny or modify or improve the philosophies, methods, models, and/or claims conveyed in this article. But readers should not try to "find bones from an egg", and codes here are just for their reference, not for their unfriendly criticism. Of course, the authors are open to learn and friendly comments are always welcomed.
