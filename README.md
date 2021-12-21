@@ -14,6 +14,8 @@ Online supplementary materials of the paper titled
 
 **Distributionally Robust State Estimation for Linear Systems Subject to Uncertainty and Outlier**
 
+Published in the _IEEE Transactions on Signal Processing_ (DOI: [10.1109/TSP.2021.3136804](https://ieeexplore.ieee.org/document/9656678))
+
 By Shixiong Wang and Zhisheng Ye
 
 From the Department of Industrial Systems Engineering and Management, National University of Singapore.
@@ -41,6 +43,10 @@ From the Department of Industrial Systems Engineering and Management, National U
 
     * This folder contains the codes to generate the Table III and Table IV in the online <u>supplementary materials</u>.
 
+
+***See Also***
+
+[Robust State Estimation for Linear Systems Under Distributional Uncertainty](https://github.com/Spratm-Asleaf/DRSE)
 
 ***Warranty***
 
